@@ -18,12 +18,12 @@ from trajectory_msgs.msg import JointTrajectory
 class RebelWebotsDriver():
     def init(self, webots_node, properties):
         self.__robot = webots_node.robot
-        self.__joint1 = self.__robot.getDevice('joint1')
-        self.__joint2 = self.__robot.getDevice('joint2')
-        self.__joint3 = self.__robot.getDevice('joint3')
-        self.__joint4 = self.__robot.getDevice('joint4')
-        self.__joint5 = self.__robot.getDevice('joint5')
-        self.__joint6 = self.__robot.getDevice('joint6')
+        self.__joint1 = self.__robot.getDevice('joint_1')
+        self.__joint2 = self.__robot.getDevice('joint_2')
+        self.__joint3 = self.__robot.getDevice('joint_3')
+        self.__joint4 = self.__robot.getDevice('joint_4')
+        self.__joint5 = self.__robot.getDevice('joint_5')
+        self.__joint6 = self.__robot.getDevice('joint_6')
         self.__positions = [0.0,0.0,0.0,0.0,0.0,0.0]
         rclpy.init(args=None)
         self.__node = rclpy.create_node('igus_webots_driver')

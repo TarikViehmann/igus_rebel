@@ -37,14 +37,14 @@ PROTO Rebel [
             }
             device [
               RotationalMotor {
-                name "joint1"
+                name "joint_1"
                 maxVelocity 2.16
                 minPosition -3.12414
                 maxPosition 3.12414
                 maxTorque 330.0
               }
               PositionSensor {
-                name "joint1_sensor"
+                name "joint_1_sensor"
               }
             ]
             endPoint Solid {
@@ -67,14 +67,14 @@ PROTO Rebel [
                   }
                   device [
                     RotationalMotor {
-                      name "joint2"
+                      name "joint_2"
                       maxVelocity 2.16
                       minPosition -1.48353
                       maxPosition 2.44346
                       maxTorque 330.0
                     }
                     PositionSensor {
-                      name "joint2_sensor"
+                      name "joint_2_sensor"
                     }
                   ]
                   endPoint Solid {
@@ -121,14 +121,14 @@ PROTO Rebel [
                                 }
                                 device [
                                   RotationalMotor {
-                                    name "joint3"
+                                    name "joint_3"
                                     maxVelocity 2.16
                                     minPosition -1.39626
                                     maxPosition 2.61799
                                     maxTorque 330.0
                                   }
                                   PositionSensor {
-                                    name "joint3_sensor"
+                                    name "joint_3_sensor"
                                   }
                                 ]
                                 endPoint Solid {
@@ -150,14 +150,14 @@ PROTO Rebel [
                                       }
                                       device [
                                         RotationalMotor {
-                                          name "joint4"
+                                          name "joint_4"
                                           maxVelocity 2.16
                                           minPosition -3.12414
                                           maxPosition 3.12414
                                           maxTorque 330.0
                                         }
                                         PositionSensor {
-                                          name "joint4_sensor"
+                                          name "joint_4_sensor"
                                         }
                                       ]
                                       endPoint Solid {
@@ -178,14 +178,14 @@ PROTO Rebel [
                                             }
                                             device [
                                               RotationalMotor {
-                                                name "joint5"
+                                                name "joint_5"
                                                 maxVelocity 2.16
                                                 minPosition -1.65806
                                                 maxPosition 1.65806
                                                 maxTorque 330.0
                                               }
                                               PositionSensor {
-                                                name "joint5_sensor"
+                                                name "joint_5_sensor"
                                               }
                                             ]
                                             endPoint Solid {
@@ -207,14 +207,14 @@ PROTO Rebel [
                                                   }
                                                   device [
                                                     RotationalMotor {
-                                                      name "joint6"
+                                                      name "joint_6"
                                                       maxVelocity 2.16
                                                       minPosition -3.12414
                                                       maxPosition 3.12414
                                                       maxTorque 330.0
                                                     }
                                                     PositionSensor {
-                                                      name "joint6_sensor"
+                                                      name "joint_6_sensor"
                                                     }
                                                   ]
                                                   endPoint Solid {
@@ -230,7 +230,7 @@ PROTO Rebel [
                                                         ]
                                                       }
                                                     ]
-                                                    name "rebel_link8"
+                                                    name "link_8"
                                                     boundingObject DEF Robolink_RebeL_006 Mesh {
                                                       url "../meshes/robolink_rebel/Robolink_RebeL_006.dae"
                                                     }
@@ -246,7 +246,7 @@ PROTO Rebel [
                                                   }
                                                 }
                                               ]
-                                              name "rebel_link7"
+                                              name "link_7"
                                               boundingObject DEF Robolink_RebeL_005 Mesh {
                                                 url "../meshes/robolink_rebel/Robolink_RebeL_005.dae"
                                               }
@@ -262,7 +262,7 @@ PROTO Rebel [
                                             }
                                           }
                                         ]
-                                        name "rebel_link6"
+                                        name "link_6"
                                         boundingObject DEF Robolink_RebeL_004 Mesh {
                                           url "../meshes/robolink_rebel/Robolink_RebeL_004.dae"
                                         }
@@ -278,7 +278,7 @@ PROTO Rebel [
                                       }
                                     }
                                   ]
-                                  name "rebel_link5"
+                                  name "link_5"
                                   boundingObject DEF Robolink_RebeL_003 Mesh {
                                     url "../meshes/robolink_rebel/Robolink_RebeL_003.dae"
                                   }
@@ -294,7 +294,7 @@ PROTO Rebel [
                                 }
                               }
                             ]
-                            name "rebel_link4"
+                            name "link_4"
                             boundingObject DEF Robolink_RebeL_002_2 Mesh {
                               url "../meshes/robolink_rebel/Robolink_RebeL_002_2.dae"
                             }
@@ -309,7 +309,7 @@ PROTO Rebel [
                             }
                           }
                         ]
-                        name "rebel_link3"
+                        name "link_3"
                         boundingObject DEF Robolink_RebeL_002_1 Mesh {
                           url "../meshes/robolink_rebel/Robolink_RebeL_002_1.dae"
                         }
@@ -324,7 +324,7 @@ PROTO Rebel [
                         }
                       }
                     ]
-                    name "rebel_link2"
+                    name "link_2"
                     boundingObject DEF Robolink_RebeL_002_0 Mesh {
                       url "../meshes/robolink_rebel/Robolink_RebeL_002_0.dae"
                     }
@@ -340,7 +340,7 @@ PROTO Rebel [
                   }
                 }
               ]
-              name "rebel_link1"
+              name "link_1"
               boundingObject DEF Robolink_RebeL_001 Mesh {
                 url "../meshes/robolink_rebel/Robolink_RebeL_001.dae"
               }
