@@ -63,42 +63,42 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        rebel_link1:
+        link_1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rebel_link2:
+        link_2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rebel_link3:
+        link_3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rebel_link4:
+        link_4:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rebel_link5:
+        link_5:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rebel_link6:
+        link_6:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rebel_link7:
+        link_7:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rebel_link8:
+        link_8:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -125,7 +125,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: rebel_link1
+    Fixed Frame: link_1
     Frame Rate: 30
   Name: root
   Tools:

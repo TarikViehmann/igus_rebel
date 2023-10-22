@@ -6,7 +6,7 @@
   <xacro:include filename="$(find rebel_description)/urdf/igus_rebel.urdf" />
 
   <xacro:include filename="$(find rebel_description)/urdf/igus_rebel.control.xacro"/>
-  <xacro:igus_rebel_control arm_id="igus_rebel"/>
+  <xacro:igus_rebel_control />
 
   <link name="world" />
 
