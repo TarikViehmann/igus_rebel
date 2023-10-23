@@ -19,6 +19,7 @@
     </inertial>
   </link>
 
+  <link name="world" />
   <link name="ft_frame"/>
   <link name="tool0"/>
 
